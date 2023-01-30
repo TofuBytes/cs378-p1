@@ -9,6 +9,20 @@ header {
  text-align: center;
 }
 
+.subheading {
+  text-align: center;
+  color: orange;
+  font-family: 'Copperplate';
+
+}
+
+.subheading2 {
+  text-align: center;
+  color: black;
+  font-style: italic;
+  font-family: 'Copperplate';
+}
+
 .logo {
   text-align: center;
   max-width: 60%;
@@ -16,20 +30,20 @@ header {
   height: auto;
 }
 
-
 .pic {
-  align-items: center;
-  width: 100px; 
-  height: 100px;
+  object-fit:contain;
+  width: 150px;
+  height: 150px;
 }
 
 .name {
-  text-align: center;
-
+  text-align: start;
+  font-family: 'Copperplate';
 }
 
 .price {
   text-align: end;
+  font-family: 'Copperplate';
 
 }
 
