@@ -6,14 +6,15 @@ body {
   }
 
 header {
- text-align: center;
+  padding-top: 10px;
+  text-align: center;
 }
 
 .subheading {
   text-align: center;
   color: orange;
   font-family: 'Copperplate';
-
+  font-size: medium;
 }
 
 .subheading2 {
@@ -21,6 +22,7 @@ header {
   color: black;
   font-style: italic;
   font-family: 'Copperplate';
+  font-size: medium;
 }
 
 .logo {
@@ -38,6 +40,7 @@ header {
 
 .name {
   text-align: start;
+  text-align:left-center;
   font-family: 'Copperplate';
 }
 
@@ -51,4 +54,22 @@ header {
   content: "";
   clear: both;
   display: table;
+}
+
+.order {
+  text-align: left;
+}
+
+.btn {
+  background-color: #86aacc;
+  border-color: rgb(121, 110, 185);
+  color: white;
+  text-align: center;
+  font-family: 'Copperplate';
+  font-size: 16px;
+  border-radius: 20px;
+}
+
+.test {
+  vertical-align: middle;
 }
