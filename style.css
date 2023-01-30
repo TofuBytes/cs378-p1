@@ -1,3 +1,28 @@
 body {
     padding-top: 10px;
+    width: 100%;
+    align-items: center;
+
   }
+
+.pic {
+  align-items: center;
+  width: 100px; 
+  height: 100px;
+}
+
+.name {
+  text-align: center;
+
+}
+
+.price {
+  text-align: end;
+
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
