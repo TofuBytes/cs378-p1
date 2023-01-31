@@ -35,22 +35,24 @@ header {
 .pic {
   object-fit:contain;
   width: 150px;
-  height: 150px;
+  height: 175px;
 }
 
 .name {
+  padding-top: 5px;
   text-align: start;
-  text-align:left-center;
   font-family: 'Copperplate';
 }
 
 .price {
+  padding-top: 5px;
   text-align: end;
   font-family: 'Copperplate';
 
 }
 .but{
   padding-left: 0%;
+  padding-top: 5px;
 }
 .clearfix::after {
   content: "";
